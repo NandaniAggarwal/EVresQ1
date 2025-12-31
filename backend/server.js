@@ -43,15 +43,12 @@ app.use(session({
   cookie: { secure: false }
 }));
 
-// Passport
 app.use(passport.initialize());
 app.use(passport.session());
 
-// Routes
 app.get("/", (req, res) => {
   res.json({ ok: true, message: "EV RESQ API" });
 });
-
 app.use("/api/auth", require("./src/routes/authRoutes"));
 app.use("/api/users", require("./src/routes/userRoutes"));
 app.use("/api/drivers", require("./src/routes/driverRoutes"));
@@ -59,7 +56,6 @@ app.use("/api/hosts", require("./src/routes/hostRoutes"));
 app.use("/api/booking/search", require("./src/routes/bookingRoutes"));
 app.use("/api/chargers", require("./src/routes/chargerRoutes"));
 
-// 404
 app.all("*", (req, res) => {
   res.status(404).json({ ok: false, message: "Route not found" });
 });
