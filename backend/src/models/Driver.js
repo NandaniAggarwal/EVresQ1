@@ -9,6 +9,8 @@ const driverSchema = new mongoose.Schema({
   licenseNumber: String,
   vehicleNumber: String,
   preferredLocation: String,
+  latitude: Number,
+  longitude: Number,
   isAvailable: { type: Boolean, default: true }
 }, { timestamps: true });
 

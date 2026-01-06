@@ -6,6 +6,9 @@ export default function EVownerDashboard() {
   const [hosts, setHosts] = useState([]);
   const [showHosts, setShowHosts] = useState(false);
   const [bookingStatus, setBookingStatus] = useState({});
+  const [driverBooking, setDriverBooking] = useState(null);
+  const [redirected, setRedirected] = useState(false);
+
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -51,8 +54,8 @@ export default function EVownerDashboard() {
     return () => clearInterval(interval);
   }, [showHosts]);
 
-  // 🔹 ONLY CHANGE IS INSIDE THIS FUNCTION
-  const handleRequestCharging = (host) => {
+
+const handleRequestCharging = (host) => {
     if (!navigator.geolocation) {
       alert("Location not supported");
       return;
@@ -107,9 +110,9 @@ export default function EVownerDashboard() {
         alert("Please allow location access");
       }
     );
-  };
+};
 
-  useEffect(() => {
+useEffect(() => {
   if (!bookingStatus) return;
 
   const activeBooking = Object.values(bookingStatus).find(
@@ -157,6 +160,78 @@ const bookingId = activeBooking.bookingId;
 }, [bookingStatus]);
 
 
+useEffect(() => {
+  if (!driverBooking) return;
+  const bookingId = driverBooking._id;
+  const token = localStorage.getItem("token");
+
+  const interval = setInterval(() => {
+    navigator.geolocation.getCurrentPosition(
+      async (pos) => {
+        try {
+          await fetch(
+            `http://localhost:8000/api/EVowner/update-location-for-driver/${bookingId}`,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${token}`,
+              },
+              body: JSON.stringify({
+                latitude: pos.coords.latitude,
+                longitude: pos.coords.longitude,
+              }),
+            }
+          );
+        } catch (err) {
+          console.error("Location update failed", err);
+        }
+      },
+      (err) => {
+        console.error("Geolocation error", err);
+      }
+    );
+  }, 5000);
+}, [driverBooking]);
+
+useEffect(() => {
+  if (redirected) return; // 🚨 STOP polling once redirected
+
+  const fetchDriverStatus = async () => {
+    try {
+      const token = localStorage.getItem("token");
+      const res = await fetch(
+        "http://localhost:8000/api/EVowner/my-driver-request",
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+
+      if (!res.ok) return;
+
+      const data = await res.json();
+      if (data?.driver) {
+        setDriverBooking(data);
+      }
+    } catch (err) {
+      console.error("Driver status fetch failed", err);
+    }
+  };
+
+  fetchDriverStatus();
+  const interval = setInterval(fetchDriverStatus, 5000);
+
+  return () => clearInterval(interval);
+}, [redirected]);
+
+useEffect(() => {
+  if (driverBooking?.driver) {
+    navigate(`/ev/driver/${driverBooking.driver._id}`, {
+      state: driverBooking,
+      replace: true, // 👈 back button glitch avoid
+    });
+  }
+}, [driverBooking, navigate]);
+
+
   return (
     <div className="ev-dashboard">
       <div className="ev-main-header">
@@ -165,6 +240,36 @@ const bookingId = activeBooking.bookingId;
           Logged in as <b>EV Owner</b>
         </p>
       </div>
+
+      <button
+  className="view-hosts-btn"
+  onClick={async () => {
+    const token = localStorage.getItem("token");
+
+    navigator.geolocation.getCurrentPosition(async (pos) => {
+      const res=await fetch("http://localhost:8000/api/EVowner/request-driver", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          latitude: pos.coords.latitude,
+          longitude: pos.coords.longitude,
+          address: "Current Location",
+          note: "Need charging assistance",
+        }),
+      });
+      const data = await res.json();
+          console.log("STATUS:", res.status);
+          console.log("RESPONSE:", data);
+
+      alert("🚗 Driver request sent");
+    });
+  }}
+>
+  🚗 Book Driver
+</button>
 
       {!showHosts && (
         <div className="view-hosts-wrapper">
@@ -187,8 +292,7 @@ const bookingId = activeBooking.bookingId;
             ) : (
               hosts.map((host) => {
                 const booking = bookingStatus[host._id];
-const status = booking?.status;
-
+                const status = booking?.status;
 
                 return (
                   <div

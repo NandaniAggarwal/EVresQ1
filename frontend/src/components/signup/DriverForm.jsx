@@ -13,6 +13,8 @@ export default function DriverForm({ setRole }) {
     licenseNumber: "",
     vehicleNumber: "",
     preferredLocation: "",
+    latitude: "",
+    longitude: ""
   });
   
 const navigate = useNavigate();
@@ -139,6 +141,22 @@ const { login } = useInfo();
           type="text"
           placeholder="Preferred Location"
           value={form.preferredLocation}
+          onChange={handleChange}
+          style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
+        />
+        <input
+          name="latitude"
+          type="text"
+          placeholder="Latitude"
+          value={form.latitude}
+          onChange={handleChange}
+          style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
+        />
+        <input
+          name="longitude"
+          type="text"
+          placeholder="Longitude"
+          value={form.longitude}
           onChange={handleChange}
           style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc" }}
         />

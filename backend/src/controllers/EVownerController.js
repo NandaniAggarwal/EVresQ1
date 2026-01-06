@@ -3,6 +3,8 @@ const EVowner=require('../models/Evowner');
 const generateToken=require('../config/generateToken')
 const Host=require('../models/Host');
 const HomeChargerBooking = require('../models/HomeChargerBooking');
+const DriverBooking = require("../models/DriverBooking");
+const Driver = require("../models/Driver");
 
 const registeredUser=asyncHandler(async (req,res)=>{
       const {name,email,password,phone}=req.body;
@@ -144,4 +146,77 @@ const bookingloocation = asyncHandler(async (req, res) => {
   res.json(booking);
 });
 
-module.exports={registeredUser,allUsers,getAllHosts,bookHomeCharger,getMyBookingForHost,getHostById,updateBookingLocation, bookingloocation};
+//
+const requestDriver = asyncHandler(async (req, res) => {
+  const { latitude, longitude, address, note } = req.body;
+
+  const existing = await DriverBooking.findOne({
+    EVowner: req.user.id,
+    status: { $nin: ["completed", "rejected","on_the_way"] },
+  });
+
+  if (existing) {
+    return res.status(400).json({
+      message: "You already have an active driver request",
+    });
+  }
+
+  const booking = await DriverBooking.create({
+    EVowner: req.user.id,
+    pickupLocation: {
+      latitude,
+      longitude,
+      address,
+    },
+    note,
+  });
+
+  res.status(201).json({
+    message: "Driver request sent to nearby drivers",
+    booking,
+  });
+});
+
+const getMyDriverRequest = asyncHandler(async (req, res) => {
+  const booking = await DriverBooking.findOne({
+    EVowner: req.user.id,
+    status: { $nin: ["rejected"] },
+  })
+    .populate("driver", "-password")
+    .sort({ createdAt: -1 });
+
+  res.json(booking || null);
+});
+
+const getDriverById = asyncHandler(async (req, res) => {
+  const driver = await Driver.findById(req.params.driverId).select("-password");
+  res.json(driver);
+})
+
+const updateBookingLocationforDriver = asyncHandler(async (req, res) => {
+  const { latitude, longitude } = req.body;
+  console.log("Updating location for booking:", req.params.bookingId, latitude, longitude);
+  await DriverBooking.findByIdAndUpdate(
+  req.params.bookingId,
+  {
+    pickupLocation: {
+      latitude,
+      longitude
+    },
+    updatedAt: new Date()
+  }
+);
+
+
+  res.json({ success: true });
+});
+
+const bookingloocationfordriver = asyncHandler(async (req, res) => {
+  res.set("Cache-Control", "no-store");
+  const booking = await DriverBooking.findById(req.params.bookingId)
+    .select("pickupLocation");
+
+  res.json(booking);
+});
+
+module.exports={registeredUser,allUsers,getAllHosts,bookHomeCharger,getMyBookingForHost,getHostById,updateBookingLocation, bookingloocation,requestDriver,getMyDriverRequest,getDriverById,updateBookingLocationforDriver,bookingloocationfordriver};

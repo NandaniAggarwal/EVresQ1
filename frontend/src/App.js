@@ -8,6 +8,8 @@ import HostDashboard from "./components/HostDashboard";
 import DriverDashboard from "./components/DriverDashboard";
 import ProfileOfHost from "./components/ProfileOfHost";
 import ProfileOfEVowner from "./components/ProfileOfEVowner";
+import ProfileOfDriver from "./components/ProfileOfDriver";
+import Profileofevownerfordriver from "./components/Profileofevownerfordriver";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/driver/dashboard" element={<DriverDashboard />} />
         <Route path="/host/evowner/:bookingId" element={<ProfileOfEVowner />} />
 <Route path="/ev/host/:hostId" element={<ProfileOfHost />} />
+        <Route path="/ev/driver/:driverId" element={<ProfileOfDriver />} />
+        <Route path="/driver/evowner/:evOwnerId" element={<Profileofevownerfordriver />} />
 
       </Routes>
     </BrowserRouter>

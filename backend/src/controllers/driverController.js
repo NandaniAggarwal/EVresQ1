@@ -1,10 +1,12 @@
 const asyncHandler=require('express-async-handler');
 const Driver=require('../models/Driver');
-const generateToken=require('../config/generateToken')
+const generateToken=require('../config/generateToken');
+const DriverBooking = require("../models/DriverBooking");
+const EVowner = require("../models/Evowner");
 
 const registeredUser=asyncHandler(async (req,res)=>{
-      const {name,email,password,phone,licenseNumber, vehicleNumber,preferredLocation,}=req.body;
-      if (!name || !email || !password || !phone || !licenseNumber || !vehicleNumber || !preferredLocation) {
+      const {name,email,password,phone,licenseNumber, vehicleNumber,preferredLocation,latitude,longitude}=req.body;
+      if (!name || !email || !password || !phone || !licenseNumber || !vehicleNumber || !preferredLocation || !latitude || !longitude) {
           res.status(400);
           throw new Error("Please Enter all the Feilds");
       }
@@ -13,7 +15,7 @@ const registeredUser=asyncHandler(async (req,res)=>{
           res.status(400);
           throw new Error("User already exists");
       }
-      const user = await Driver.create({name,email,password,phone,licenseNumber,vehicleNumber,preferredLocation});
+      const user = await Driver.create({name,email,password,phone,licenseNumber,vehicleNumber,preferredLocation, latitude,longitude});
       if (user) {
         const token = generateToken(user._id,"Driver");
           res.status(201).json({
@@ -24,6 +26,9 @@ const registeredUser=asyncHandler(async (req,res)=>{
             licenseNumber: user.licenseNumber,
             vehicleNumber: user.vehicleNumber,
             preferredLocation: user.preferredLocation,
+            latitude: user.latitude,
+            longitude: user.longitude,
+            isAvailable: user.isAvailable,
             token:token
           });
         } else {
@@ -57,4 +62,91 @@ const allUsers = asyncHandler(async (req, res) => {
   }
 });
 
-module.exports={registeredUser,allUsers};
+const getAllDriverRequests = asyncHandler(async (req, res) => {
+  const requests = await DriverBooking.find({
+  EVowner: { $ne: null },     // 👈 IMPORTANT
+  $or: [
+    { status: "requested" },
+    { driver: req.user.id }
+  ]
+})
+.populate("EVowner", "-password");
+  res.json(requests);
+});
+
+const acceptDriverRequest = asyncHandler(async (req, res) => {
+  const booking = await DriverBooking.findById(req.params.id);
+
+  if (!booking) {
+    res.status(404);
+    throw new Error("Request not found");
+  }
+
+  booking.driver = req.user.id;
+  booking.status = "accepted";
+  await booking.save();
+
+  res.json({ message: "Request accepted", booking });
+});
+
+const rejectDriverRequest = asyncHandler(async (req, res) => {
+  const booking = await DriverBooking.findById(req.params.id);
+
+  if (!booking) {
+    res.status(404);
+    throw new Error("Request not found");
+  }
+
+  booking.status = "rejected";
+  await booking.save();
+
+  res.json({ message: "Request rejected" });
+});
+
+const startTrip = asyncHandler(async (req, res) => {
+  const booking = await DriverBooking.findById(req.params.id);
+
+  booking.status = "on_the_way";
+  await booking.save();
+
+  res.json({ message: "Trip started" });
+});
+
+const completeTrip = asyncHandler(async (req, res) => {
+  const booking = await DriverBooking.findById(req.params.id);
+
+  booking.status = "completed";
+  await booking.save();
+
+  res.json({ message: "Trip completed" });
+});
+
+const getownerById = asyncHandler(async (req, res) => {
+  const owner = await EVowner.findById(req.params.evOwnerId);
+
+  if (!owner) {
+    res.status(404);
+    throw new Error("EV Owner not found");
+  }
+
+  const booking = await DriverBooking.findOne({
+    EVowner: owner._id,
+    driver: req.user.id
+  });
+
+  res.json({
+    name: owner.name,
+    phone: owner.phone,
+    email: owner.email,
+    booking: booking
+      ? { status: booking.status }
+      : null,
+  });
+});
+
+
+module.exports={registeredUser,allUsers, getAllDriverRequests,
+  acceptDriverRequest,
+  rejectDriverRequest,
+  startTrip,
+  completeTrip,getownerById};

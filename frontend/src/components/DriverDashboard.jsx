@@ -1,78 +1,54 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./DriverDashboard.css";
+import { useNavigate } from "react-router-dom";
 
 export default function DriverDashboard() {
-  const [hosts, setHosts] = useState([]);
-  const [showHosts, setShowHosts] = useState(false);
+  const [requests, setRequests] = useState([]);
   const token = localStorage.getItem("token");
-
+  const navigate = useNavigate();
   useEffect(() => {
-    if (showHosts) fetchHosts();
-  }, [showHosts]);
+    fetchRequests();
+    const interval = setInterval(fetchRequests, 4000);
+    return () => clearInterval(interval);
+  }, []);
 
-  const fetchHosts = async () => {
-    try {
-      const res = await axios.get("http://localhost:8000/api/host", {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
-      setHosts(res.data);
-    } catch (err) {
-      console.error(err);
-    }
-  };
-
-  const sendRequest = async (hostId) => {
-    try {
-      await axios.post(
-        "http://localhost:8000/api/driver/request",
-        { hostId },
-        {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
-      alert("⚡ Charging request sent!");
-    } catch (err) {
-      alert("❌ Failed to send request");
-    }
+  const fetchRequests = async () => {
+    const res = await axios.get(
+      "http://localhost:8000/api/driver/requests",
+      {
+        headers: { Authorization: `Bearer ${token}` },
+      }
+    );
+    setRequests(res.data);
   };
 
   return (
-    <div className="driver-dashboard">
+    <div>
       <h1>🚐 Driver Dashboard</h1>
-      <p className="sub">Logged in as Driver</p>
 
-      {!showHosts && (
-        <button className="primary-btn" onClick={() => setShowHosts(true)}>
-          View All Hosts
-        </button>
-      )}
+      {requests.length === 0 && <p>No requests</p>}
+      {requests
+  .filter(r => r.EVowner)
+  .map(r => (
+    <div key={r._id} style={{ border: "1px solid #ccc", padding: 12 }}>
+      <h3>{r.EVowner.name}</h3>
+      <p>📞 {r.EVowner.phone}</p>
+      <p>📍 {r.pickupLocation?.latitude}</p>
+      <p>📍 {r.pickupLocation?.longitude}</p>
 
-      {showHosts && (
-        <div className="host-grid">
-          {hosts.map((host) => (
-            <div className="host-card" key={host._id}>
-              <div className="avatar">👤</div>
-              <h3>{host.name}</h3>
-              <p>{host.email}</p>
-              <p className="location">
-                📍 {host.location || "Not provided"}
-              </p>
+      <button
+        onClick={() =>
+          navigate(`/driver/evowner/${r.EVowner._id}`, {
+            state: { bookingId: r._id, status: r.status }
+          })
+        }
+      >
+        View Profile
+      </button>
+    </div>
+  ))}
 
-              <button
-                className="request-btn"
-                onClick={() => sendRequest(host._id)}
-              >
-                Send Charging Request
-              </button>
-            </div>
-          ))}
-        </div>
-      )}
     </div>
   );
 }
+
