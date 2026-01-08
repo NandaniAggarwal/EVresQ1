@@ -1,0 +1,166 @@
+name,state,city,address,latitude,longitude,type,station_id,type_label
+Iocl Rajokri Station,Delhi,New Delhi,"NH 8 Exit 4, Samalka, New Delhi, Delhi 110037",28.5248,77.101,12,iocl rajokri station_28.5248_77.101,DC_fast
+Iocl Nehru Nagar Station,Delhi,New Delhi,"10-C, Nehru Nagar, Ring Rd, near Lajpat Nagar, New Delhi, Delhi 110065",28.5682,77.2531,12,iocl nehru nagar station_28.5682_77.2531,DC_fast
+Iocl Mathura Road,Delhi,New Delhi,"No A12, Mathura Rd, near Telephone Exchange, Friends Colony East, New Delhi, Delhi 110025",28.566,77.2664,12,iocl mathura road_28.566_77.2664,DC_fast
+Iocl Dhaula Kuan Charging Station,Delhi,New Delhi,"Ring Rd, opposite Gurudwara, Smriti Vatika, North West Moti Bagh, New Delhi, Delhi 110021",28.5874,77.1713,12,iocl dhaula kuan charging station_28.5874_77.1713,DC_fast
+Hp Pitam Pura Dc Charging Station,Delhi,New Delhi,"HP PETROL PUMP - AUTO CARE CENTRE PITAM PURA, Pitampura, Delhi, India",28.6962,77.155,12,hp pitam pura dc charging station_28.6962_77.155,DC_fast
+Electriva Test Station,Delhi,New Delhi,"3409/1, 3rd Floor, Desh Bandhu Gupta Rd, Karol Bagh, New Delhi-110005",28.6539,77.1905,12,electriva test station_28.6539_77.1905,DC_fast
+Athergrid Cp,Haryana,Delhi,"A 221 road no 6, D Block, Connaught Place, New Delhi, 110037",28.633714,77.221904,6,athergrid cp_28.63371_77.2219,AC_slow_moderate
+Oyo Townhouse 118,Delhi,Delhi,"20, Gagan Vihar, Krishna Nagar ",28.646011,77.296796,6,oyo townhouse 118_28.64601_77.2968,AC_slow_moderate
+Oyo Townhouse 381,Delhi,Delhi,"D/59, New Seemapuri Rd, Pocket E, Dilshad Colony New Simapuri, Dilshad Garden",28.68902,77.323102,6,oyo townhouse 381_28.68902_77.3231,AC_slow_moderate
+Oyo Townhouse 278 Rohini,Kerala,Delhi,"6-A, Pocket 27, Sector-24, Rohini, Delhi, 110085, New Delhi, Delhi",28.7328878,77.0841225,6,oyo townhouse 278 rohini_28.73289_77.08412,AC_slow_moderate
+"Ather Space, Lajpat Nagar",Kerala,Delhi,"A-32, Feroze Gandhi Rd, Lajpat Nagar II, Delhi ",28.5705131,77.2368888,6,"ather space, lajpat nagar_28.57051_77.23689",AC_slow_moderate
+Reliance Digital Kamlanagar,Jharkhand,Delhi,"37 Bunglow Road Kamla Nagar, opp. Amitabh Guest House, Civil Lines, New Delhi",28.6839369,77.2022968,6,reliance digital kamlanagar_28.68394_77.2023,AC_slow_moderate
+Food Sixteen Restaurant,Bihar,Delhi,"Metro Station, A-16, Grand Trunk Rd, near Adarsh Nagar, Indira Nagar, Azadpur, New Delhi",28.7169145,77.168538,6,food sixteen restaurant_28.71691_77.16854,AC_slow_moderate
+Ather Space - Gujranwala Town,Tamil Nadu,Delhi,"A 11, GT Karnal Rd, near Vinayak Hospital, Block A, Gujranwala Town, Delhi, 110009",28.6990084,77.1833274,6,ather space - gujranwala town_28.69901_77.18333,AC_slow_moderate
+Throttle Shrottle Moto Cafe,Delhi,Gurugram,"Faridabad - Gurgaon Rd, Baliawas, Bandhwari, Haryana 122102",28.428213,77.1405458,6,throttle shrottle moto cafe_28.42821_77.14055,AC_slow_moderate
+Ather Space - Janakpuri,Uttar Pradesh,Delhi," Ground floor, BF-1, Janakpuri, Jail Road, New Delhi 110058",28.6255909,77.1009332,6,ather space - janakpuri_28.62559_77.10093,AC_slow_moderate
+Loom Solar Warehouse,Delhi,Faridabad,"Plot No. 21, 1, Mathura Rd, Pocket 3, Rajiv Enclave, Sector 6, Faridabad, Haryana 121006",28.3520623,77.3007942,6,loom solar warehouse_28.35206_77.30079,AC_slow_moderate
+Mealodroma,Delhi,Delhi,"A6, 110027, Najafgarh Rd, Vishal Enclave, Rajouri Garden, Delhi, 110027",28.6486023,77.1147014,6,mealodroma_28.6486_77.1147,AC_slow_moderate
+"Iocl - Coco Niti Marg, Chanakyapuri",Delhi,Delhi,"Niti Marg, ChanakyaPuri, New Delhi-110021",28.599629,77.195806,7,"iocl - coco niti marg, chanakyapuri_28.59963_77.19581",AC_slow_moderate
+"Iocl Hundred Percent Filling & Service Station, Dwarka",Delhi,Delhi,"Sector 9, Dwarka, New Delhi, Delhi 110073",28.578641,77.05962,7,"iocl hundred percent filling & service station, dwarka_28.57864_77.05962",AC_slow_moderate
+"Iocl - Citi Fuels, Virender Nagar",Delhi,Delhi,OPP.-VIRENDER NAGAR NEAR BHARATI COLLEGE NEW DELHI,28.622486,77.09547,7,"iocl - citi fuels, virender nagar_28.62249_77.09547",AC_slow_moderate
+"Iocl - Gay Service Station, Azadpur",Delhi,Delhi,"Near Azadpur, New Delhi,110033",28.703312,77.181109,7,"iocl - gay service station, azadpur_28.70331_77.18111",AC_slow_moderate
+"Ardee Mall, Sec 52 Gurgaon",Delhi,Gurgaon,"Ardee City Road, Sector 52, Gurgaon-122022",28.444672,77.08082,7,"ardee mall, sec 52 gurgaon_28.44467_77.08082",AC_slow_moderate
+"Iocl - Ruchika Service Station, Mayur Vihar",Delhi,Delhi,"KONDLI GHARAOLI,  MAYUR VIHAR PH-III NEW DELHI-110096",28.6034988,77.3354221,7,"iocl - ruchika service station, mayur vihar_28.6035_77.33542",AC_slow_moderate
+"Sagar Motors, Dilshad Garden",Delhi,Delhi,"No ZB/43 487 & ZB, 44 487, Dilshad Garden, New Delhi, Delhi 110095",28.676246,77.31768,7,"sagar motors, dilshad garden_28.67625_77.31768",AC_slow_moderate
+"Pacific Mall, Tagore Garden",Delhi,Delhi,"Najafgarh Rd, Tagore Garden, Tilak Nagar, New Delhi, Delhi 110018",28.6422188,77.1058913,7,"pacific mall, tagore garden_28.64222_77.10589",AC_slow_moderate
+"Pacific Mall, Netaji Subash Palace",Delhi,Delhi,"Pitam Pura, New Delhi, Delhi 110034",28.6933409,77.1531325,7,"pacific mall, netaji subash palace_28.69334_77.15313",AC_slow_moderate
+"Pacific Mall,  Dwarka",Delhi,Delhi,"Dwarka sector 21 metro station, PACIFIC MALL, Sector 22 Rd, Sector 21, Dwarka, New Delhi, Delhi 110077",28.5512199,77.056702,7,"pacific mall,  dwarka_28.55122_77.0567",AC_slow_moderate
+"Iocl - Tikri Gas, Delhi",Delhi,Delhi,"Rohtak Road, Block C, Tyagi Vihar, Ghevra, Delhi, 110072",28.6868847,76.9849286,7,"iocl - tikri gas, delhi_28.68688_76.98493",AC_slow_moderate
+Iocl Risal Petro Delhi,Delhi,Delhi,"Burari Rd, opposite Sta Tpt Authority, Laldora, Jharoda, Jharoda Majra Burari, New Delhi, Delhi 110084",28.7324265,77.1986248,7,iocl risal petro delhi_28.73243_77.19862,AC_slow_moderate
+Iocl Paul Motors Delhi,Delhi,Delhi,"Main Road, Sat Guru Ram Singh Rd, MS Block, Block F, Mayapuri Industrial Area Phase II, Mayapuri, New Delhi, Delhi 110064",28.61986668,77.11398244,7,iocl paul motors delhi_28.61987_77.11398,AC_slow_moderate
+"Hpcl - Badarpur Service Station, Gazipur",Uttar Pradesh,Delhi,"Integrated Freight Complex, Mayur Vihar Phase III, Gharoli, Delhi, Uttar Pradesh 110096",28.6197025,77.3411839,7,"hpcl - badarpur service station, gazipur_28.6197_77.34118",AC_slow_moderate
+Iocl - Aaui Service Station,Delhi,Delhi,IOCL at Plot No 1 I P Estate Ring Road New Delhi,28.6179662,77.2487894,7,iocl - aaui service station_28.61797_77.24879,AC_slow_moderate
+Volltic Dcs08,Delhi,New Delhi,"Golden Ikon Fleet Management, Iffco chowk delhi",28.52360775,77.08321547,13,volltic dcs08_28.52361_77.08322,
+Bypl Patparganj,Delhi,Delhi,"Near Swati Apartment, Mother Dairy Marg, I.P.Extension, Mandawali, New Delhi, Delhi 110092",28.6305311,77.2926978,14,bypl patparganj_28.63053_77.2927,
+Eesl Sda Market,Delhi,Delhi,"Unnamed Road, Block C 5, Hauz Khas Enclave, Hauz Khas, New Delhi, Delhi 110016",28.54873377,77.19657963,8,eesl sda market_28.54873_77.19658,Public_AC
+Eesl R Block Gk1,Delhi,Delhi,"Hansraj Gupta Rd, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",28.55155916,77.24469874,8,eesl r block gk1_28.55156_77.2447,Public_AC
+Ptc  Igi Airport,Delhi,New Delhi,"GI Airport, T3 Road, Indira Gandhi International Airport, New Delhi, Delhi - 110037",28.54851804,77.10435748,8,ptc  igi airport_28.54852_77.10436,Public_AC
+Atul Automobile Vasant Kunj,Delhi,New Delhi,"Vasant Kunj Mall Road, Pocket 5, Sector C, Vasant Kunj, New Delhi, Delhi 110070",28.52290663,77.15668214,8,atul automobile vasant kunj_28.52291_77.15668,Public_AC
+Ev Plugin Charge Vasant Square Mall,Delhi,New Delhi,"Vasant Kunj Marg, Pocket 5, Sector B, Vasant Kunj, New Delhi, Delhi 110070",28.52544024,77.15590041,8,ev plugin charge vasant square mall_28.52544_77.1559,Public_AC
+Eesl Malviya Nagar Delhi,Delhi,New Delhi,"Guru Gobind Singh Marg, Old Market, Block C, Malviya Nagar, New Delhi, Delhi 110017",28.53646664,77.21145062,8,eesl malviya nagar delhi_28.53647_77.21145,Public_AC
+Eesl Pvr Priya Delhi,Delhi,New Delhi,"61, Community Center, Basant Nagar, Basant Lok, Vasant Vihar, New Delhi, Delhi 110027",28.55773691,77.1579439,8,eesl pvr priya delhi_28.55774_77.15794,Public_AC
+Brpl Nehru Place,Delhi,New Delhi,"BSES Bhawan, near Kalkaji Mandir metro station, Nehru Place, New Delhi, Delhi 110019",28.5495423,77.2545699,8,brpl nehru place_28.54954_77.25457,Public_AC
+Eesl Aurbindo Market Place,Delhi,New Delhi,"Block C 2, Bhim Nagri, Hauz Khas, New Delhi, Delhi 110016",28.55177869,77.2033166,8,eesl aurbindo market place_28.55178_77.20332,Public_AC
+Eesl Safderjung Enclave,Delhi,New Delhi,"Block B6, Humayunpur, Safdarjung Enclave, New Delhi, Delhi 110016",28.55917249,77.19648462,8,eesl safderjung enclave_28.55917_77.19648,Public_AC
+Eesl N Block Gk1,Delhi,New Delhi,"N Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048",28.55560464,77.23371054,8,eesl n block gk1_28.5556_77.23371,Public_AC
+Ndse Grid Brpl,Delhi,New Delhi,"South Extension, Block E, South Extension II, New Delhi, Delhi 110049",28.86883053,77.14376226,8,ndse grid brpl_28.86883_77.14376,Public_AC
+Eesl Dilli Haat,Delhi,New Delhi,"NDMC Parking, Dilli Haat, West Kidwai Nagar, New Delhi - 110023",28.57357604,77.207152,8,eesl dilli haat_28.57358_77.20715,Public_AC
+Eesl Sarojini Nagar Market,Delhi,New Delhi,"Lal. Sai Hanuman mandir, Sarojini Nagar Market, Sarojini Nagar, New Delhi, Delhi 110023",28.57729829,77.19690865,8,eesl sarojini nagar market_28.5773_77.19691,Public_AC
+Eesl Laxmi Bai Market,Delhi,New Delhi,"26B, Sri Aurobindo Marg, Aviation Colony, INA Colony, New Delhi, Delhi 110003",28.577623,77.2038986,8,eesl laxmi bai market_28.57762_77.2039,Public_AC
+Indraprastha Gas Limited Shantipath,Delhi,New Delhi,"Shantipath Road, Shantipath, near Rail Museum, Moti Bagh, New Delhi, Delhi 110021",28.58267379,77.17947959,8,indraprastha gas limited shantipath_28.58267_77.17948,Public_AC
+Eesl Charak Palika Hospital,Delhi,New Delhi,"F 203, Moti Bagh 1, Block F, North West Moti Bagh, New Delhi, Delhi 110021",28.58704293,77.17767714,8,eesl charak palika hospital_28.58704_77.17768,Public_AC
+Eesl Yashwant Place Market,Delhi,New Delhi,"Yashwant Place, Satya Marg, Chanakyapuri, New Delhi, Delhi 110021",28.58556496,77.1913234,8,eesl yashwant place market_28.58556_77.19132,Public_AC
+Eesl Psoi Club,Delhi,New Delhi,"PSOI Club Chanakyapuri, New Delhi, Delhi 110021",28.58664525,77.19360781,8,eesl psoi club_28.58665_77.19361,Public_AC
+Eesl Khanna Market 1,Delhi,New Delhi,"NDMC Parking, Opposite Goel Opticals, Khanna Market, Aliganj, Lodhi Colony, New Delhi -110003",28.580532,77.221048,8,eesl khanna market 1_28.58053_77.22105,Public_AC
+Eesl Palika Maternity Hospital,Delhi,New Delhi,"Palika Maternity Hospital, block 11, Lodhi Colony, Near Khanna Market, New Delhi - 110003",28.583518,77.222057,8,eesl palika maternity hospital_28.58352_77.22206,Public_AC
+Eesl Khanna Market 2,Delhi,New Delhi,"NDMC Parking, Opposite Dory Pharmacy, Khanna Market, Aliganj Lodhi colony, New Delhi - 110003",28.584365,77.22054,8,eesl khanna market 2_28.58436_77.22054,Public_AC
+Eesl Maherchand Market Delhi,Delhi,New Delhi,"Double story Market, Maherchand Lodhi Road , New Delhi - 110003",28.581051,77.227075,8,eesl maherchand market delhi_28.58105_77.22708,Public_AC
+Eesl Jor Bagh Market,Delhi,New Delhi,"NMDC Parking, Outside RWA Park, Jor Bagh Market, Jor Bagh Colony Road, New Delhi - 110003",28.588117,77.217564,8,eesl jor bagh market_28.58812_77.21756,Public_AC
+Eesl Lodhi Garden,Delhi,New Delhi,"NMDC Parking, Gate no 1, Lodhi Gardens, Lodhi Estate, Lodhi Road New Delhi - 110003",28.590402,77.220192,8,eesl lodhi garden_28.5904_77.22019,Public_AC
+Bses Hazrat Nizamuddin,Delhi,New Delhi,"Nizamuddin Railway Station, Nizamuddin East, New Delhi -110013",28.5885055,77.2570236,8,bses hazrat nizamuddin_28.58851_77.25702,Public_AC
+Eesl Malcha Marg Market,Delhi,New Delhi,"NDMC Parking, Dharma Marg, block- Y, Diplomatic Enclave, Malcha Market, New Delhi - 110021",28.601809,77.186432,8,eesl malcha marg market_28.60181_77.18643,Public_AC
+Eesl Khan Market,Delhi,New Delhi,"NDMC Parking, Khan Market, New Delhi - 110003",28.600324,77.226883,8,eesl khan market_28.60032_77.22688,Public_AC
+Eesl Prithviraj Market,Delhi,New Delhi,"NDMC Parking, Prithviraj Market, Prithviraj Ln, New Delhi - 110003",28.600735,77.226277,8,eesl prithviraj market_28.60074_77.22628,Public_AC
+Eesl Hotel Claridges,Delhi,New Delhi,"NDMC Parking, Side of Hotel Claridges, Tees January Marg, Dr. APJ Abdul Kalam Road, New Delhi -110011",28.599477,77.215583,8,eesl hotel claridges_28.59948_77.21558,Public_AC
+Eesl Hotel Claridges,Delhi,New Delhi,"NDMC Parking, Side of Hotel Claridges, Tees January Marg, Dr. APJ Abdul Kalam Road, New Delhi -110011",28.601201,77.215975,8,eesl hotel claridges_28.6012_77.21598,Public_AC
+Eesl Talkatora Stadium,Delhi,New Delhi,"Talkatora stadium Presidents Estate, New Delhi - 110004",28.62576517,77.19489108,8,eesl talkatora stadium_28.62577_77.19489,Public_AC
+Eesl Talkatora Garden,Delhi,New Delhi,"Rashtrapati Bhawan, President's Estate, New Delhi, Delhi 110004",28.62394449,77.19509853,8,eesl talkatora garden_28.62394_77.1951,Public_AC
+Eesl Press Club,Delhi,New Delhi,"1, Raisina Road, Near Central Secretariat Metro, Windsor Place, New Delhi, Delhi 110001",28.61743816,77.21362374,8,eesl press club_28.61744_77.21362,Public_AC
+Eesl Chelmsford Club,Delhi,New Delhi,"Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi, Delhi 110001",28.61919904,77.21252935,8,eesl chelmsford club_28.6192_77.21253,Public_AC
+Eesl Akashwani Bhawan,Delhi,New Delhi,"Sansad Marg, Pandit Pant Marg Area, Sansad Marg Area, New Delhi, Delhi 110001",28.62237102,77.21148694,8,eesl akashwani bhawan_28.62237_77.21149,Public_AC
+Eesl Sansad Marg,Delhi,New Delhi,"NDMC Parking, Outside Standard Chartered Bank, Sardar Patel Bhawan, Sansad Marg, New Delhi - 110001",28.62463712,77.21405159,8,eesl sansad marg_28.62464_77.21405,Public_AC
+Eesl Bharat Sanchar Bhawan,Delhi,New Delhi,"Outside Bharat Sanchar Bhawan, Ashoke Road, Janpath, New Delhi - 110001",28.62433889,77.21983712,8,eesl bharat sanchar bhawan_28.62434_77.21984,Public_AC
+Eesl Fab India,Delhi,New Delhi,"62, Janpath Rd, Atul Grove Road, Janpath, Connaught Place, New Delhi, Delhi 110001",28.62772522,77.21977647,8,eesl fab india_28.62773_77.21978,Public_AC
+Eesl Icici Bank Janpath,Delhi,New Delhi,"No 82, Janpath Rd, Janpath, Connaught Place, New Delhi, Delhi 110001",28.62891677,77.21975289,8,eesl icici bank janpath_28.62892_77.21975,Public_AC
+Eesl Ficci Chowk,Delhi,New Delhi,"FICCI Chowk, Todermal Road Area, Mandi House, New Delhi, Delhi 110001",28.62703859,77.23189591,8,eesl ficci chowk_28.62704_77.2319,Public_AC
+Eesl Jain Bhawan,Delhi,New Delhi,"Jain Bhawan, 12, Shaheed Bhagat Singh Marg, Gole Market, New Delhi, Delhi 110001",28.6340764,77.20743317,8,eesl jain bhawan_28.63408_77.20743,Public_AC
+Eesl Barakhamba,Delhi,New Delhi,"Fire Brigade Lane, Barakhamba, New Delhi, Delhi 110001",28.62981766,77.22595347,8,eesl barakhamba_28.62982_77.22595,Public_AC
+Eesl Gopal Das Building,Delhi,New Delhi,"New Barakhamba Rd, Connaught Lane, Barakhamba, New Delhi, Delhi 110001",28.63143715,77.22343991,8,eesl gopal das building_28.63144_77.22344,Public_AC
+Eesl Hp Petrol Pump,Delhi,New Delhi,"Radial Rd Number 7, Block E, Connaught Place, New Delhi, Delhi 110001",28.63195905,77.22212172,8,eesl hp petrol pump_28.63196_77.22212,Public_AC
+"Eesl Block M, Cp",Delhi,New Delhi,"K-11, Connaught Cir, Connaught Lane, Barakhamba, New Delhi, Delhi 110001",28.63314358,77.22298998,8,"eesl block m, cp_28.63314_77.22299",Public_AC
+Eesl Shanker Market,Delhi,New Delhi,"11, Shankar Market, Connaught Lane, Barakhamba, New Delhi, Delhi 110001",28.63382667,77.22352744,8,eesl shanker market_28.63383_77.22353,Public_AC
+Eesl Ktm,Delhi,New Delhi,"NDMC Parking, Opp South Indian Bank, Block - E , RR6, Middle Circle, connaught Place, New Delhi - 110001",28.63372677,77.22193874,8,eesl ktm_28.63373_77.22194,Public_AC
+Eesl M Block,Delhi,New Delhi,"NDMC Parking, Outside Westebd Vedi Tailors, Block M, Middle Circle, Connaught Place, New Delhi - 110001",28.63385213,77.2218576,8,eesl m block_28.63385_77.22186,Public_AC
+Eesl Snow White,Delhi,New Delhi,"D-8, D Block, Connaught Place, New Delhi, Delhi 110001",28.63410545,77.22086228,8,eesl snow white_28.63411_77.22086,Public_AC
+Eesl Croma,Delhi,New Delhi,"Ground Floor, Odeon Cine Complex, Middle Cir, D Block, Connaught Place, New Delhi, Delhi 110001",28.63418123,77.22131977,8,eesl croma_28.63418_77.22132,Public_AC
+Eesl Ferns N Petal,Delhi,New Delhi,"C-17.Inner Circle Opp.Odean Cinema, Rajiv Chowk, Connaught Place, New Delhi, Delhi 110001",28.63457602,77.22062451,8,eesl ferns n petal_28.63458_77.22062,Public_AC
+Eesl Van Heusen,Delhi,New Delhi,"Ground & Mazanine Floor, Rajiv Chowk, Block A, Connaught Place, New Delhi, Delhi 110001",28.63296432,77.21796241,8,eesl van heusen_28.63296_77.21796,Public_AC
+Eesl Block B,Delhi,New Delhi,"Shop No. B-29, Inner Circle, New Delhi, Delhi 110001",28.6319879,77.21694388,8,eesl block b_28.63199_77.21694,Public_AC
+Eesl Pvr Plaza,Delhi,New Delhi,"Plaza Mall, Connaught Cir, Block H, Connaught Place, New Delhi, Delhi 110001",28.63518078,77.21960047,8,eesl pvr plaza_28.63518_77.2196,Public_AC
+Eesl Block H,Delhi,New Delhi,"Connaught Cir, Block H, Connaught Place, New Delhi, Delhi 110001",28.63455142,77.21791736,8,eesl block h_28.63455_77.21792,Public_AC
+Eesl Iqbal Bros,Delhi,New Delhi,"Marina Arcade, Middle Cir, Sector 1, Block G, Connaught Place, New Delhi, Delhi 110001",28.6339199,77.21740165,8,eesl iqbal bros_28.63392_77.2174,Public_AC
+Eesl Block A,Delhi,New Delhi,"9 A, Phelps Building, Inner Circle, Connaught Place, New Delhi, Delhi 110001",28.63259875,77.21833827,8,eesl block a_28.6326_77.21834,Public_AC
+Ev Plugin Charge Cross River Mall,Delhi,New Delhi,"Cross River Mall, Plot No - 9B & 9C, Basement, 2, CBD Ground, Shahdara, New Delhi, Delhi 110032",28.65740137,77.30219421,8,ev plugin charge cross river mall_28.6574_77.30219,Public_AC
+Eesl Chelmsford Club,Delhi,Delhi,"Outside Chelmsford Club/ Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi 110001",28.61826041,77.21256986,16,eesl chelmsford club_28.61826_77.21257,DC_high_power
+Eesl Chelmsford Club,Delhi,Delhi,"Outside Chelmsford Club/ Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi 110001",28.61826041,77.21256986,16,eesl chelmsford club_28.61826_77.21257,DC_high_power
+U00A0Eesl Sushma Swaraj Bhawan,Delhi,Delhi,"Susma swaraj Bhawan, MEA, New Delhi",28.59583333,77.18055556,16,u00a0eesl sushma swaraj bhawan_28.59583_77.18056,DC_high_power
+Eesl Delhi Haat,Delhi,Delhi,"NMDC Parking, Dilli Haat, West Kidwai Nagar, New Delhi 110023",28.572793,77.208662,16,eesl delhi haat_28.57279_77.20866,DC_high_power
+Eesl Chelmsford Club,Delhi,Delhi,"Back of Hotel Claridges Near NDMC Power Sub nStation, Tees January Marg, nDr. APJ Abdul Kalam Road, New Delhi- 110003",28.61826041,77.21256986,16,eesl chelmsford club_28.61826_77.21257,DC_high_power
+Eesl Chelmsford Club,Delhi,Delhi,"Outside Chelmsford Club/ Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi 110001",28.61826041,77.21256986,16,eesl chelmsford club_28.61826_77.21257,DC_high_power
+Mg Delhi Shivaji Marg,Delhi,New Delhi,PLOT NO 13 SHIVAJI MARG DELHI 110015 NEW DELHI,28.66196,77.152242,20,mg delhi shivaji marg_28.66196_77.15224,Ultra_fast
+Mg Delhi Lajpat Nagar,Delhi,New Delhi,"A-14, Ring Road, Lajpat nagar, Delhi 110024",28.564863,77.236743,20,mg delhi lajpat nagar_28.56486_77.23674,Ultra_fast
+Bses Rapid Charging Zone,Delhi,Patparkang,"Narwana,Patparkang road,I-P Extension",28.62145,77.293556,14,bses rapid charging zone_28.62145_77.29356,
+Bses Rapid Charging Zone,Delhi Ncr,Patparkang,"Narwana,Patparkang road,I-P Extension",28.62145,77.293556,14,bses rapid charging zone_28.62145_77.29356,
+Mg Delhi Shivaji Marg,Delhi Ncr,New Delhi,PLOT NO 13 SHIVAJI MARG DELHI 110015 NEW DELHI,28.66196,77.152242,20,mg delhi shivaji marg_28.66196_77.15224,Ultra_fast
+Mg Delhi Lajpat Nagar,Delhi Ncr,New Delhi,"A-14, Ring Road, Lajpat nagar, Delhi 110024",28.564863,77.236743,20,mg delhi lajpat nagar_28.56486_77.23674,Ultra_fast
+Eesl Chelmsford Club,Delhi Ncr,Delhi,"Outside Chelmsford Club/ Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi 110001",28.61826041,77.21256986,8,eesl chelmsford club_28.61826_77.21257,Public_AC
+Eesl Chelmsford Club,Delhi Ncr,Delhi,"Outside Chelmsford Club/ Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi 110001",28.61826041,77.21256986,8,eesl chelmsford club_28.61826_77.21257,Public_AC
+U00C2U00A0Eesl Sushma Swaraj Bhawan,Delhi Ncr,Delhi,"Susma swaraj Bhawan, MEA, New Delhi",28.59583333,77.18055556,8,u00c2u00a0eesl sushma swaraj bhawan_28.59583_77.18056,Public_AC
+Eesl Delhi Haat,Delhi Ncr,Delhi,"NMDC Parking, Dilli Haat, West Kidwai Nagar, New Delhi 110023",28.572793,77.208662,8,eesl delhi haat_28.57279_77.20866,Public_AC
+Eesl Chelmsford Club,Delhi Ncr,Delhi,"Back of Hotel Claridges Near NDMC Power Sub nStation, Tees January Marg, nDr. APJ Abdul Kalam Road, New Delhi- 110003",28.61826041,77.21256986,8,eesl chelmsford club_28.61826_77.21257,Public_AC
+Eesl Chelmsford Club,Delhi Ncr,Delhi,"Outside Chelmsford Club/ Opposite CSIR Building, Rafi Marg, Sansad Marg Area, New Delhi 110001",28.61826041,77.21256986,8,eesl chelmsford club_28.61826_77.21257,Public_AC
+"Go Auto/ Treo Tata, Safdargunj",Delhi Ncr,Delhi,"A-2/14, Safdarjung Enclave, , Delhi, Delhi - 110029",28.56483,77.18891,7,"go auto/ treo tata, safdargunj_28.56483_77.18891",AC_slow_moderate
+"Autovikas, Motinagar",Delhi Ncr,Delhi,"Block B, No. 57, Rama Rd, Moti Nagar, Block B, Najafgarh Road Industrial Area, New Delhi, Delhi 110015",28.66078,77.1536,7,"autovikas, motinagar_28.66078_77.1536",AC_slow_moderate
+"Westside, Lajpat Nagar",Delhi Ncr,Delhi,"A-15, Alankar Cinema Building, Feroze Gandhi Marg, Lajpat Nagar III, New Delhi 110024",28.56817,77.24112,7,"westside, lajpat nagar_28.56817_77.24112",AC_slow_moderate
+"Iocl - Welcome Motors, Saket",Delhi Ncr,Delhi,SAKET DISST. CENTRE SAKET N.DELHI - 110017,28.5279341,77.2156347,7,"iocl - welcome motors, saket_28.52793_77.21563",AC_slow_moderate
+"Malwa Automobiles, Rohini",Delhi Ncr,Delhi,"Showroom, No. A1, 16, Prashant Vihar Sector 14 Rohini, New Delhi - 110085",28.709289,77.135499,7,"malwa automobiles, rohini_28.70929_77.1355",AC_slow_moderate
+"Iocl - Nineteenth Hole Service Station, Dr Zakir Hussain Ro",Delhi Ncr,Delhi,"DR. ZAKIR HUSSAIN ROAD NEAR GOLF COURSEN DELHI LOCK ID NO. I 343,110003",28.60259,77.237904,7,"iocl - nineteenth hole service station, dr zakir hussain ro_28.60259_77.2379",AC_slow_moderate
+"Iocl - Sabarwal Service Station, Rk Puram",Delhi Ncr,Delhi,"Tamil Sangam Marg, Sector 5, Rama Krishna Puram, New Delhi-110022",28.564625,77.177461,7,"iocl - sabarwal service station, rk puram_28.56462_77.17746",AC_slow_moderate
+"Airia Mall, Sec 68 Sohna Road",Delhi Ncr,Gurgaon,"Sector 68, Sohna Road, Gurgaon 122018n",28.383022,77.05228,7,"airia mall, sec 68 sohna road_28.38302_77.05228",AC_slow_moderate
+"Iocl - Jai Sai Motors, Okhla Phase 1",Delhi Ncr,Delhi,"Okhla Phase - 1, near Hotel Crown Plaza, New Delhi, Delhi 110020",28.527674,77.273003,7,"iocl - jai sai motors, okhla phase 1_28.52767_77.273",AC_slow_moderate
+"Iocl - Coco, Jungpura",Delhi Ncr,Delhi,"Lala Lajpat Rai Marg, Jangpura, Nizamuddin West, New Delhi- 110014",28.587135,77.241353,7,"iocl - coco, jungpura_28.58714_77.24135",AC_slow_moderate
+"Iocl - Irwin Petrol Pump, Connaught Place",Delhi Ncr,Delhi,"Baba Kharak Singh Marg, Connaught Place, Hanuman Road Area, Connaught Place, New Delhi, Delhi 110001",28.62932,77.21262,7,"iocl - irwin petrol pump, connaught place_28.62932_77.21262",AC_slow_moderate
+"Iocl - Rk Service Station, Chanakyapuri",Delhi Ncr,Delhi,"Vinay Marg, ChanakyaPuri, New Delhi - 110021",28.58342,77.191319,7,"iocl - rk service station, chanakyapuri_28.58342_77.19132",AC_slow_moderate
+"Iocl - Intimate Filling Station, Soami Nagar",Delhi Ncr,Delhi,"Panchsheel Marg, Soami Nagar North, New Delhi- 110049",28.543012,77.220429,7,"iocl - intimate filling station, soami nagar_28.54301_77.22043",AC_slow_moderate
+"True North, Mayapuri",Delhi Ncr,Delhi,"A1/1 Mayapuri, Industrial Area, Phase 1, New Delhi 110064",28.633301,77.126961,7,"true north, mayapuri_28.6333_77.12696",AC_slow_moderate
+"Iocl - Coco Niti Marg, Chanakyapuri",Delhi Ncr,Delhi,"Niti Marg, ChanakyaPuri, New Delhi-110021",28.599629,77.195806,7,"iocl - coco niti marg, chanakyapuri_28.59963_77.19581",AC_slow_moderate
+"Sagar Motors, Dilshad Garden",Delhi Ncr,Delhi,"No ZB/43 487 & ZB, 44 487, Dilshad Garden, New Delhi, Delhi 110095",28.676246,77.31768,7,"sagar motors, dilshad garden_28.67625_77.31768",AC_slow_moderate
+"Pacific Mall, Tagore Garden",Delhi Ncr,Delhi,"Najafgarh Rd, Tagore Garden, Tilak Nagar, New Delhi, Delhi 110018",28.6422188,77.1058913,7,"pacific mall, tagore garden_28.64222_77.10589",AC_slow_moderate
+Iocl Risal Petro Delhi,Delhi Ncr,Delhi,"Burari Rd, opposite Sta Tpt Authority, Laldora, Jharoda, Jharoda Majra Burari, New Delhi, Delhi 110084",28.7324265,77.1986248,7,iocl risal petro delhi_28.73243_77.19862,AC_slow_moderate
+Iocl Paul Motors Delhi,Delhi Ncr,Delhi,"Main Road, Sat Guru Ram Singh Rd, MS Block, Block F, Mayapuri Industrial Area Phase II, Mayapuri, New Delhi, Delhi 110064",28.61986668,77.11398244,7,iocl paul motors delhi_28.61987_77.11398,AC_slow_moderate
+Iocl Bedi Saxena Delhi,Delhi Ncr,Delhi,"B-88-5, 86-5, Sat Guru Ram Singh Rd, Block B, Mayapuri Industrial Area Phase I, Mayapuri, New Delhi, Delhi 110064",28.627092,77.121841,7,iocl bedi saxena delhi_28.62709_77.12184,AC_slow_moderate
+Aargo Csc Minto Road,Delhi Ncr,New Delhi,"CSC NDMC CENTER MINTO ROAD OPPOSITE K BLOCK, NEW DELHI,NEW DELHI,110001",28.63547,77.2213,22,aargo csc minto road_28.63547_77.2213,Ultra_fast
+"Iocl - Citi Fuels, Virender Nagar",Delhi Ncr,Delhi,OPP.-VIRENDER NAGAR NEAR BHARATI COLLEGE NEW DELHI-110058,28.622486,77.09547,7,"iocl - citi fuels, virender nagar_28.62249_77.09547",AC_slow_moderate
+"Iocl - Gay Service Station, Azadpur",Delhi Ncr,Delhi,"Near Azadpur, New Delhi,110033",28.703312,77.181109,7,"iocl - gay service station, azadpur_28.70331_77.18111",AC_slow_moderate
+"Pacific Mall,  Dwarka",Delhi Ncr,Delhi,"Dwarka sector 21 metro station, PACIFIC MALL, Sector 22 Rd, Sector 21, Dwarka, New Delhi, Delhi 110077",28.5512199,77.056702,7,"pacific mall,  dwarka_28.55122_77.0567",AC_slow_moderate
+"Vardhaman Times Plaza, Pitampura",Delhi Ncr,Delhi,"LG 1, Vardhaman Times Plaza, Plot No. 13, Saint Nagar Delhi, Pitampura, Delhi - 110034",28.6874177,77.1341163,7,"vardhaman times plaza, pitampura_28.68742_77.13412",AC_slow_moderate
+"Hpcl - Delhi Punjab Fuel Station, Singhu Border",Delhi Ncr,Delhi,"15/1 Gt.karnal RD. Singhu Border, Po, Narela, Delhi, 110040",28.8558802,77.1245004,7,"hpcl - delhi punjab fuel station, singhu border_28.85588_77.1245",AC_slow_moderate
+"Dlf - The Crest, Sec 43",Delhi Ncr,Gurgaon,"DLF Phase 5, Sector 43, Gurugram, Haryana 122002",28.4438196,77.1117253,7,"dlf - the crest, sec 43_28.44382_77.11173",AC_slow_moderate
+"Dlf - The Camellias, Golf Course Road",Delhi Ncr,Gurgaon,"The Camellias, Golf Course Road , Gurgaon - 122009",28.451114,77.100126,7,"dlf - the camellias, golf course road_28.45111_77.10013",AC_slow_moderate
+Iocl - Aaui Service Station,Delhi Ncr,Delhi,IOCL at Plot No 1 I P Estate Ring Road New Delhi-110002,28.6179662,77.2487894,7,iocl - aaui service station_28.61797_77.24879,AC_slow_moderate
+"Ginger Hotel, Sector- 63",Delhi Ncr,Noida,"Ginger Hotel Noida East East - Block-H, Sector- 63, Noida 201301",28.6257406,77.3753188,7,"ginger hotel, sector- 63_28.62574_77.37532",AC_slow_moderate
+"Vatika Market Place I, Sector 84",Delhi Ncr,Gurgaon,"Sector 84, Gurugram, Haryana 122004",28.4022133,76.969045,7,"vatika market place i, sector 84_28.40221_76.96904",AC_slow_moderate
+"Vatika Market Place Ii, Sector 83",Delhi Ncr,Gurgaon,"Sector 83, Gurugram, Haryana - 122004",28.391085,76.97266,7,"vatika market place ii, sector 83_28.39108_76.97266",AC_slow_moderate
+"Worldmark 2, Aerocity",Delhi Ncr,Delhi,"Worldmark Aerocity, New Delhi  - 110037",28.5494799,77.1213702,7,"worldmark 2, aerocity_28.54948_77.12137",AC_slow_moderate
+"Worldmark 2, Aerocity",Delhi Ncr,Delhi,"Worldmark Aerocity, New Delhi  - 110037",28.5494799,77.1213702,7,"worldmark 2, aerocity_28.54948_77.12137",AC_slow_moderate
+"Worldmark 3, Aerocity",Delhi Ncr,Delhi,"Worldmark Aerocity, New Delhi  - 110037",28.5516849,77.1216672,7,"worldmark 3, aerocity_28.55168_77.12167",AC_slow_moderate
+"Worldmark 3, Aerocity",Delhi Ncr,Delhi,"Worldmark Aerocity, New Delhi  - 110037",28.5516849,77.1216672,7,"worldmark 3, aerocity_28.55168_77.12167",AC_slow_moderate
+"Worldmark Gurgaon, Sector 65",Delhi Ncr,Gurgaon,"Worldmark Gurgaon Maidawas Rd, Sector 65, Gurugram, Haryana 122001",28.3977181,77.0715213,7,"worldmark gurgaon, sector 65_28.39772_77.07152",AC_slow_moderate
+"Worldmark Gurgaon, Sector 65",Delhi Ncr,Gurgaon,"Worldmark Gurgaon Maidawas Rd, Sector 65, Gurugram, Haryana 122001",28.3977181,77.0715213,7,"worldmark gurgaon, sector 65_28.39772_77.07152",AC_slow_moderate
+"Sparsh , Garg Plaza - Dwarka",Delhi Ncr,Delhi,"RZ A- 70, Garg Plaza, Dabri - Palam Road, Dwarka, Delhi, Delhi - 110043",28.60585,77.08133,7,"sparsh , garg plaza - dwarka_28.60585_77.08133",AC_slow_moderate
+"Iocl Hundred Percent Filling & Service Station, Dwarka",Maharashtra,Delhi,"Sector 9, Dwarka, New Delhi, Delhi 110073",28.578641,77.05962,7,"iocl hundred percent filling & service station, dwarka_28.57864_77.05962",AC_slow_moderate
+"Ardee Mall, Sec 52 Gurgaon",Delhi Ncr,Gurgaon,"Ardee City Road, Sector 52, Gurgaon-122022",28.444672,77.08082,7,"ardee mall, sec 52 gurgaon_28.44467_77.08082",AC_slow_moderate
+"Iocl - Ruchika Service Station, Mayur Vihar",Delhi Ncr,Delhi,"KONDLI GHARAOLI,  MAYUR VIHAR PH-III NEW DELHI-110096",28.6034988,77.3354221,7,"iocl - ruchika service station, mayur vihar_28.6035_77.33542",AC_slow_moderate
+"Pacific Mall, Netaji Subash Palace",Delhi Ncr,Delhi,"Pitam Pura, New Delhi, Delhi 110034",28.6933409,77.1531325,7,"pacific mall, netaji subash palace_28.69334_77.15313",AC_slow_moderate
+"Iocl - Tikri Gas, Delhi",Delhi Ncr,Delhi,"Rohtak Road, Block C, Tyagi Vihar, Ghevra, Delhi, 110072",28.6868847,76.9849286,7,"iocl - tikri gas, delhi_28.68688_76.98493",AC_slow_moderate
+"Hpcl - Badarpur Service Station, Gazipur",Delhi Ncr,Delhi,"Integrated Freight Complex, Mayur Vihar Phase III, Gharoli, Delhi, Uttar Pradesh 110096",28.6197025,77.3411839,7,"hpcl - badarpur service station, gazipur_28.6197_77.34118",AC_slow_moderate
+Tata Power,Delhi,Delhi,"MVID MCD Hospital, Mukherjee Nagar, MVID MCD Hospital Parking, Tagore Park Extension, Mukherjee Nagar, Delhi, 110009",28.7036992,77.2044734,7,tata power_28.7037_77.20447,AC_slow_moderate
+Tata Power,Delhi,Delhi,"Naniwala Bagh Commercial Complex, Azadpur, Commercial Complex, Gopal Nagar, Azadpur, New Delhi, Delhi 110009",28.709831,77.17765,7,tata power_28.70983_77.17765,AC_slow_moderate
+Tata Power,Delhi,Delhi,"Netaji Subash Place, Pitampura, MCD, Netaji Subhash Place, Pitampura, Delhi, 110034",28.6912791,77.1523963,7,tata power_28.69128_77.1524,AC_slow_moderate
+Tata Power,Delhi,Delhi,"Parking Near Manglam Place, Rohini, MCD parking Near Mangalam Palace, Rohini Sector 3, 110085",28.6981417,77.1164514,7,tata power_28.69814_77.11645,AC_slow_moderate
+Tata Power,Delhi,Delhi,"PVR Naraina, Commercial Complex, Community Center, Goswami Girdhari Lal Marg, Industrial Area Phase I, Block B, Naraina Industrial Area Phase 1, Naraina, New Delhi, Delhi 110028",28.6321091,77.1372683,7,tata power_28.63211_77.13727,AC_slow_moderate
+Tata Power,Delhi,Delhi,"Ssensse Hotel, Sec 25, PLOT NO.28, POCKET 5A, SECTOR 25, ROHINI NEW Delhi 110085",28.735847,77.093263,7,tata power_28.73585_77.09326,AC_slow_moderate
+Tata Power,Delhi,Delhi,"Tanga Stand, Moti Nagar, MCD Parking, Tanga Stand Road, Motinagar metro station, Moti Nagar, Delhi, 110015",28.6591233,77.1436388,7,tata power_28.65912_77.14364,AC_slow_moderate
+Tata Power,Delhi,Delhi,"Videocon Tower, Jhandewalan, E3/15, Block E3, Jhandewalan Extension, Jhandewalan, New Delhi - 110005",28.6449172,77.2025135,7,tata power_28.64492_77.20251,AC_slow_moderate
